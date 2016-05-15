@@ -58,17 +58,23 @@
         <section class="hero">
             <div class="texture-overlay"></div>
             <div class="container">
-                <div class="row nav-wrapper">
-                    <div class="col-md-6 col-sm-6 col-xs-6 text-left">
+                <div class="row nav-wrapper" style="    position: fixed;    width: 100%;    left: 0;    padding: 20px;    z-index: 9999;    top: 0;    margin: 0;    background-image: url('img/tattoo/blackboard.jpg');">
+                    <div class="col-md-4 col-sm-4 col-xs-4 text-left">
                         <a href="#" style="font-family: 'Damion', cursive;font-size: 24px;color: #fff;">MachuStudios</a>
                         <!-- <a href="#"><img src="img/logo-white.png" alt="Boxify Logo"></a> -->
                     </div>
-                    <div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
-                        <p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
+                    <div class="col-md-8 col-sm-8 col-xs-8 text-right navicon">
+                        <ul style="display: inline-block;">
+                            <li style="display: inline;padding:5px 20px;"><a style="color:#fff;" href="#about">About</a></li>
+                            <li style="display: inline;padding:5px 20px;"><a style="color:#fff;" href="#features">Features</a></li>
+                            <li style="display: inline;padding:5px 20px;"><a style="color:#fff;" href="#screenshots">Portfolio</a></li>
+                            <li style="display: inline;padding:5px 20px;"><a style="color:#fff;" href="#contact">Contact</a></li>
+                        </ul>
+                        <!-- <p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a> -->
                     </div>
                 </div>
                 <div class="row hero-content">
-                    <div class="col-md-8 col-md-offset-2 ">
+                    <div class="col-md-8 col-md-offset-2 " style="z-index: 99999;">
                         <h1 class="animated fadeInDown" style="font-family: 'Homemade Apple', cursive;line-height:75px;">The best professional and hygenic tattoo studio in bangalore.</h1>
                     </div>
                 </div>
@@ -329,7 +335,7 @@
             </div>
         </div>
     </section>
-    <section class="download">
+    <section class="download" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center wp4">
